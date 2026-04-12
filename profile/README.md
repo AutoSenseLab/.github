@@ -2,102 +2,97 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=AutoSenseLab&fontSize=55&fontColor=ffffff&fontAlignY=40" width="100%"/>
 
-### Industrial AI — built for the real world, not just the lab.
+### Industrial AI Solutions — Built for Real-World Deployment
 
 ![Location](https://img.shields.io/badge/📍-Thailand-red)
 ![Focus](https://img.shields.io/badge/🏭-Industrial%20AI-blue)
-![Stack](https://img.shields.io/badge/🛠️-Python%20%7C%20TensorFlow%20%7C%20IoT-orange)
+![Stack](https://img.shields.io/badge/🛠️-AI%20%7C%20Computer%20Vision%20%7C%20IoT-orange)
 
 </div>
 
 ---
 
-## เกี่ยวกับเรา
+## 🚀 About AutoSenseLab
 
-AutoSenseLab เริ่มจากคนที่ทำงานในโรงงานจริง เจอปัญหาจริง แล้วแก้ด้วย AI
+AutoSenseLab was founded with a simple belief:
 
-เราไม่ได้ทำ AI เพื่อความสวยงามใน presentation
-แต่ทำเพราะอยากให้มันแก้ปัญหาได้จริงในสายการผลิต
+> **AI should solve real industrial problems — not just look good in presentations.**
 
-ทุก project ที่เราทำ มาจากโจทย์ที่เจอในชีวิตจริง
-และถูกออกแบบให้ deploy ได้ ไม่ใช่แค่ทดลองใน notebook
+We specialize in building **practical AI systems** for manufacturing and industrial environments.  
+Every solution we develop is designed with **deployment in mind**, not just experimentation.
+
+Our experience comes from working directly with real machines, real data, and real constraints inside production lines.
 
 ---
 
-## Projects
+## 🧠 Core Expertise
 
-### ✅ Steel Surface Defect Detection
+- **AI Vision Inspection** — Automated defect detection with explainability
+- **Predictive Maintenance** — Forecast failures before they happen
+- **Industrial IoT Systems** — Sensor → Data → Insight → Action
+- **Edge AI Deployment** — Real-time inference on-device
 
-ระบบตรวจสอบพื้นผิวเหล็กด้วย Computer Vision
-จำแนก defect ได้ 6 ประเภท พร้อม GradCAM Heatmap
-ที่บอกได้ชัดเจนว่า AI กำลังดูที่จุดไหนของรูป
+---
 
-- Model: MobileNetV2 + GradCAM
-- Dataset: NEU Steel (1,800 images, 6 classes)
-- Demo: Streamlit web app
+## 📦 Featured Projects
+
+### 🔍 Steel Surface Defect Detection
+
+An AI-powered inspection system for detecting surface defects in steel materials.
+
+- **Model:** MobileNetV2 + Grad-CAM (Explainable AI)
+- **Dataset:** NEU Steel Dataset (1,800 images, 6 defect classes)
+- **Deployment:** Streamlit Web Application
+- **Capability:** Visual explanation of model focus areas
+
+👉 Ideal for quality control and automated inspection systems
 
 [![View Project](https://img.shields.io/badge/GitHub-steel--surface--defects--detection-181717?logo=github)](https://github.com/AutoSenseLab/steel-surface-defects-detection)
 
 ---
 
-### 🚧 Time-to-Event Prediction *(กำลังพัฒนา)*
+## 💼 Services
 
-ระบบทำนายว่าค่าของเครื่องจักรจะถึง threshold เมื่อไหร่
-เหมาะกับงาน predictive maintenance และ process monitoring
+We provide end-to-end AI and automation solutions tailored for industrial use:
 
-- Model: TCN / LSTM + sliding window
-- Output: เวลาที่คาดว่าจะถึงจุดวิกฤต (นาที)
+- **AI Vision Systems**  
+  Detect defects automatically with high accuracy
 
----
+- **Predictive Analytics**  
+  Anticipate failures and optimize operations
 
-### 🚧 Industrial IoT Dashboard *(กำลังพัฒนา)*
+- **IoT Monitoring Platforms**  
+  Build complete data pipelines from sensors to dashboards
 
-เชื่อม PLC เข้ากับ dashboard real-time และ LINE alert
-ดูสถานะเครื่องจักรได้จากมือถือ ไม่ต้องอยู่หน้างาน
-
-- Stack: Mitsubishi PLC + Raspberry Pi + MQTT + Streamlit
-- Features: real-time chart, threshold alert, LINE Notify
+- **Custom AI Solutions**  
+  Designed specifically for your business needs
 
 ---
 
-## สิ่งที่รับทำ
-
-ถ้ากำลังมองหาคนช่วยพัฒนาระบบ AI หรือ automation
-ในโรงงานหรือสายการผลิต นี่คือสิ่งที่ทำได้:
-
-- **AI Vision Inspection** — ตรวจจับ defect อัตโนมัติแทนคนตรวจ
-- **Predictive Maintenance** — รู้ก่อนเครื่องจะพัง
-- **IoT Monitoring System** — sensor → dashboard → alert ครบในระบบเดียว
-- **Custom AI Solution** — รับออกแบบตามโจทย์
-
-📧 ติดต่อได้เลยที่ **ditsayabodin12@gmail.com**
+## 🛠️ Technology Stack
+AI / ML → TensorFlow, PyTorch, OpenCV, YOLO
+Backend → FastAPI, Streamlit
+IoT → Raspberry Pi, Mitsubishi PLC, MQTT
+Edge AI → NVIDIA Jetson
+Control → PID, MATLAB, Simulink
 
 ---
 
-## Tech Stack
+## 👤 Founder
 
-```
-AI / ML     →  TensorFlow, Keras, PyTorch, OpenCV, YOLO
-Backend     →  FastAPI, Streamlit
-IoT         →  Raspberry Pi, Mitsubishi PLC, MQTT, NETPIE
-Edge AI     →  Jetson Nano, Jetson Orin Nano
-Control     →  PID, MATLAB, Simulink
-```
+**Ditsayabodin Khunpanuk "Heart"**
+
+- Machine Integration & Metrology Engineer at Seagate Thailand  
+- Former Assistant Researcher at NECTEC  
+- Background in Mechatronic Engineering  
+
+Bridging the gap between **AI models** and **real-world systems**
 
 ---
 
-## Founder
+## 📬 Contact
 
-**Ditsayabodin "Heart" Khunpanuk**
-
-ทำงานด้าน Metrology และ Machine Integration ที่ Seagate Thailand
-ก่อนหน้านี้เคยเป็น Assistant Researcher ที่ NECTEC
-
-พื้นหลังมาจาก Mechatronic Engineering
-เลยถนัดทั้ง software, hardware, และการเอาสองอย่างมาทำงานด้วยกัน
-
-[![GitHub](https://img.shields.io/badge/GitHub-Ditsayabodin12-181717?logo=github)](https://github.com/Ditsayabodin12)
-[![Email](https://img.shields.io/badge/Email-ditsayabodin12%40gmail.com-red?logo=gmail)](mailto:ditsayabodin12@gmail.com)
+📧 Email: **ditsayabodin12@gmail.com**  
 
 ---
 
