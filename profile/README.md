@@ -1,5 +1,4 @@
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=AutoSenseLab&fontSize=55&fontColor=ffffff&fontAlignY=40" width="100%"/>
 
 ### Industrial AI Solutions — Built for Real-World Deployment
@@ -51,30 +50,41 @@ An AI-powered inspection system for detecting surface defects in steel materials
 
 ---
 
+### 🎯 Real-time Object Counting System
+
+A real-time object detection and counting system built with YOLOv8 and OpenCV.
+
+- **Model:** YOLOv8 (Ultralytics)
+- **Features:** Object tracking with unique ID, real-time count overlay, CSV log export
+- **Input:** Webcam, video file, RTSP / IP camera
+- **Use case:** People counting, production line monitoring, vehicle counting
+
+👉 Suitable for access control, occupancy monitoring, and automated counting on production lines
+
+[![View Project](https://img.shields.io/badge/GitHub-Real--time--Object--Counting--System-181717?logo=github)](https://github.com/AutoSenseLab/Real-time-Object-Counting-System)
+
+---
+
 ## 💼 Services
 
 We provide end-to-end AI and automation solutions tailored for industrial use:
 
-- **AI Vision Systems**  
-  Detect defects automatically with high accuracy
-
-- **Predictive Analytics**  
-  Anticipate failures and optimize operations
-
-- **IoT Monitoring Platforms**  
-  Build complete data pipelines from sensors to dashboards
-
-- **Custom AI Solutions**  
-  Designed specifically for your business needs
+- **AI Vision Systems** — Detect defects automatically with high accuracy
+- **Predictive Analytics** — Anticipate failures and optimize operations
+- **IoT Monitoring Platforms** — Build complete data pipelines from sensors to dashboards
+- **Custom AI Solutions** — Designed specifically for your business needs
 
 ---
 
 ## 🛠️ Technology Stack
-AI / ML → TensorFlow, PyTorch, OpenCV, YOLO
-Backend → FastAPI, Streamlit
-IoT → Raspberry Pi, Mitsubishi PLC, MQTT
-Edge AI → NVIDIA Jetson
-Control → PID, MATLAB, Simulink
+
+```
+AI / ML   →  TensorFlow, PyTorch, OpenCV, YOLO
+Backend   →  FastAPI, Streamlit
+IoT       →  Raspberry Pi, Mitsubishi PLC, MQTT
+Edge AI   →  NVIDIA Jetson
+Control   →  PID, MATLAB, Simulink
+```
 
 ---
 
@@ -82,9 +92,9 @@ Control → PID, MATLAB, Simulink
 
 **Ditsayabodin Khunpanuk "Heart"**
 
-- Machine Integration & Metrology Engineer at Seagate Thailand  
-- Former Assistant Researcher at NECTEC  
-- Background in Mechatronic Engineering  
+- Machine Integration & Metrology Engineer at Seagate Thailand
+- Former Assistant Researcher at NECTEC
+- Background in Mechatronic Engineering
 
 Bridging the gap between **AI models** and **real-world systems**
 
@@ -92,12 +102,10 @@ Bridging the gap between **AI models** and **real-world systems**
 
 ## 📬 Contact
 
-📧 Email: **ditsayabodin12@gmail.com**  
+📧 Email: **ditsayabodin12@gmail.com**
 
 ---
 
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%"/>
-
 </div>
